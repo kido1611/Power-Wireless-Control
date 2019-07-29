@@ -1,0 +1,30 @@
+Power Wireless Control Dashboard. 
+Create using PHP Microframework Flight
+
+---------------------------------------------------------------------------------
+
+WEB : 	https://telkomseliot.000webhostapp.com/
+
+Untuh menambah data : 
+	data yang dikirimkan : 
+		idmesin (int)
+		idproduk (string)
+		suhu (int)
+		kelembapan (int)
+		gas (int)
+		arus (int)
+		rpm (int)
+		count1 (int)
+		count2 (int)
+		count3 (int)
+		count4 (int)
+		count5 (int)
+
+	1. Metode GET
+		URL : https://telkomseliot.000webhostapp.com/insert
+		contoh : https://telkomseliot.000webhostapp.com/insert?idmesin=22&idproduk=kmzwa8awaa&suhu=30&kelembapan=20&gas=10&arus=1&rpm=10&count1=10&count2=10&count3=10&count4=10&count5=8
+
+	2. Metode POST
+		URL : https://telkomseliot.000webhostapp.com/api/telemetri
+
+
